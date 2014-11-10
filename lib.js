@@ -1,4 +1,4 @@
-function hack_delete(posicion, arreglo) {
+function hackDelete(posicion, arreglo) {
 	var arreglo_nuevo = [];
 	for (var i = 0; i < arreglo.length; i++) {
 		if(i!=posicion){
@@ -12,7 +12,7 @@ function hack_delete(posicion, arreglo) {
 
 
 
-function hack_pop(arreglo) {
+function hackPop(arreglo) {
 		var arreglo_nuevo1 = [];
 	for (var i = 0; i < arreglo.length; i++) {
 		if(i!=0){
@@ -26,7 +26,7 @@ function hack_pop(arreglo) {
 
 
 
-function hack_push(elemento, arreglo){
+function hackPush(elemento, arreglo){
  arreglo.push(elemento)
 	return arreglo
 }
@@ -35,7 +35,7 @@ function hack_push(elemento, arreglo){
 
 
 
-function hack_search(elemento, arreglo) {
+function hackSearch(elemento, arreglo) {
 	var posicion = -1
 	for(var i = 0;i<arreglo.length;i++){
 		if(arreglo[i]==elemento){
